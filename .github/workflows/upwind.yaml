@@ -43,3 +43,4 @@ jobs:
           upwind_client_id: ${{ secrets.UPWIND_CLIENT_ID }}
           upwind_client_secret: ${{ secrets.UPWIND_CLIENT_SECRET }}
           docker_image: ${{ steps.tag.outputs.image_tag }}
+          pull_image: false
